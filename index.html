@@ -12,6 +12,11 @@
       <header class="header">
           <div class="container">
               <div class="header__menu menu">
+                  <div class="menu__icon icon-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
                 <div class="header__logo">
                     <a href="#">
                         <img class="header__logo-img" src="img/logo.png" alt="logo">
@@ -29,16 +34,18 @@
           </div>
       </header>
       <section class="top">
-          <div class="top__column">
-              <div class="top__column-content">
-                  <div class="top__column-subtitle">Наши продукты</div>
-                  <h1 class="top__column-title"><b>Простота</b> — это <b>крайняя</b> степень изощренности</h1>
-              </div>
-              <img class="small-icon1" src="img/circle.png" alt="circle-img">
-              <img class="small-icon2" src="img/circle.png" alt="circle-img">
-              <img class="small-icon3" src="img/square.png" alt="square-img">
-          </div>
-          <div class="top__column">
+          <div class="container">
+              <div class="top__columns">
+                    <div class="top__column">
+                        <div class="top__column-content">
+                            <div class="top__column-subtitle">Наши продукты</div>
+                            <h1 class="top__column-title"><b>Простота</b> — это <b>крайняя</b> степень изощренности</h1>
+                        </div>
+                        <img class="small-icon1" src="img/circle.png" alt="circle-img">
+                        <img class="small-icon2" src="img/circle.png" alt="circle-img">
+                        <img class="small-icon3" src="img/square.png" alt="square-img">
+                    </div>
+            <div class="top__column">
                 <div class="top__gallery">
                     <img src="img/pic2.jpg" id="gallery" alt="pic2">
                     <ul>
@@ -48,13 +55,18 @@
                         <li class="top__gallery-item">04</li>
                     </ul>
                 </div>
+            </div>
+              </div>
+            
           </div>
+          
       </section>
       <img class="small-icon4" src="img/circle.png" alt="circle-img">
       <img class="small-icon5" src="img/square.png" alt="square-img">
    </div>
     
 
-    <script src="js/main.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
